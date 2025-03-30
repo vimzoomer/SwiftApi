@@ -24,6 +24,8 @@ This is a Spring Boot application for managing SWIFT codes with RESTful APIs. It
 docker-compose up --build
 ```
 
+Be aware that it may require sudo permissions, build requires Docker daemon socket access. 
+
 ## API Endpoints
 | Method | Endpoint | Description |
 |--------|---------|-------------|
@@ -67,5 +69,6 @@ curl -X POST http://localhost:8080/v1/swift-codes/upload-csv \
 - Jakarta Validation
 - Gradle
 - JUnit 5
+- Postgres
 
 
