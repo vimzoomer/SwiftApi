@@ -13,7 +13,8 @@ import lombok.*;
 public class SwiftCode {
     @Id
     private String swiftCode;
-
+    private String townName;
+    private String timeZone;
     private String address;
     private String bankName;
     private String countryISO2;

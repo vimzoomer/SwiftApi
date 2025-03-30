@@ -9,22 +9,20 @@ import lombok.Setter;
 @Setter
 public class SwiftCodeRequest {
 
-    @NotBlank(message = "Swift code is required")
     private String swiftCode;
 
-    @NotBlank(message = "Address is required")
     private String address;
 
-    @NotBlank(message = "Bank name is required")
     private String bankName;
 
-    @NotBlank(message = "Country ISO2 code is required")
+    private String townName;
+
+    private String timeZone;
+
     private String countryISO2;
 
-    @NotBlank(message = "Country name is required")
     private String countryName;
 
-    @NotNull(message = "isHeadquarter flag is required")
     private Boolean isHeadquarter;
 }
 
